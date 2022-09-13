@@ -6,6 +6,7 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpStatus;
@@ -24,15 +25,17 @@ import org.springframework.security.web.authentication.HttpStatusEntryPoint;
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
-	
+
+    @Autowired
 	private UserDetailsServiceImpl userDetailsService;
+    @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 	
-    public WebSecurityConfiguration(UserDetailsServiceImpl userDetailsService,
-			BCryptPasswordEncoder bCryptPasswordEncoder) {
-		this.userDetailsService = userDetailsService;
-		this.bCryptPasswordEncoder = bCryptPasswordEncoder;
-	}
+//    public WebSecurityConfiguration(UserDetailsServiceImpl userDetailsService,
+//			BCryptPasswordEncoder bCryptPasswordEncoder) {
+//		this.userDetailsService = userDetailsService;
+//		this.bCryptPasswordEncoder = bCryptPasswordEncoder;
+//	}
     
     @Override
     protected void configure(HttpSecurity http) throws Exception {

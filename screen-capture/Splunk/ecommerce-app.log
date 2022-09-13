@@ -1,0 +1,28 @@
+2022-09-13 08:56:51,186 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on DESKTOP-69CKKPR with PID 2316 (C:\Users\tungf\Downloads\udacity\eCommerceApplication\starter_code\target\classes started by tungf in C:\Users\tungf\Downloads\udacity\eCommerceApplication\starter_code)
+2022-09-13 08:56:51,203 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-13 08:56:51,205 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-09-13 08:57:08,016 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2022-09-13 08:57:10,772 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 21.051 seconds (JVM running for 25.859)
+2022-09-13 08:57:10,775 INFO c.e.d.SareetaApplication [main] ECommerce Application Started
+2022-09-13 09:00:25,815 INFO c.e.d.SareetaApplication [main] Starting SareetaApplication on DESKTOP-69CKKPR with PID 12452 (C:\Users\tungf\Downloads\udacity\eCommerceApplication\starter_code\target\classes started by tungf in C:\Users\tungf\Downloads\udacity\eCommerceApplication\starter_code)
+2022-09-13 09:00:25,832 DEBUG c.e.d.SareetaApplication [main] Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2022-09-13 09:00:25,833 INFO c.e.d.SareetaApplication [main] No active profile set, falling back to default profiles: default
+2022-09-13 09:00:38,545 DEBUG c.e.d.s.JWTAuthenticationVerficationFilter [main] Filter 'JWTAuthenticationVerficationFilter' configured for use
+2022-09-13 09:00:41,790 INFO c.e.d.SareetaApplication [main] Started SareetaApplication in 16.988 seconds (JVM running for 21.414)
+2022-09-13 09:00:41,794 INFO c.e.d.SareetaApplication [main] ECommerce Application Started
+2022-09-13 09:01:29,168 INFO c.e.d.c.CartController [main] Removed item success
+2022-09-13 09:01:29,280 ERROR c.e.d.c.CartController [main] Cannot find item: 0
+2022-09-13 09:01:29,314 ERROR c.e.d.c.CartController [main] Cannot find user: null
+2022-09-13 09:01:29,347 INFO c.e.d.c.CartController [main] Added item success
+2022-09-13 09:01:29,358 INFO c.e.d.c.CartController [main] Added item success
+2022-09-13 09:01:29,389 ERROR c.e.d.c.CartController [main] Cannot find item: 0
+2022-09-13 09:01:29,399 ERROR c.e.d.c.CartController [main] Cannot find user: null
+2022-09-13 09:01:29,411 INFO c.e.d.c.CartController [main] Removed item success
+2022-09-13 09:01:29,705 ERROR c.e.d.c.OrderController [main] Not found any user has username: testData
+2022-09-13 09:01:29,721 INFO c.e.d.c.OrderController [main] Order success
+2022-09-13 09:01:29,734 ERROR c.e.d.c.OrderController [main] Not found any user has username: testData
+2022-09-13 09:01:29,742 INFO c.e.d.c.OrderController [main] Get order success
+2022-09-13 09:01:29,749 INFO c.e.d.c.OrderController [main] Get order success
+2022-09-13 09:01:29,827 ERROR c.e.d.c.UserController [main] Fail to create user: username
+2022-09-13 09:01:29,845 INFO c.e.d.c.UserController [main] Create user username successfully
+2022-09-13 09:01:29,872 ERROR c.e.d.c.UserController [main] Fail to create user: username
